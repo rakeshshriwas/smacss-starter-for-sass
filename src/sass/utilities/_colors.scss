@@ -1,0 +1,33 @@
+/* Color Based on current requirement */
+
+// All colors
+
+$black:              #000000 !default;
+$white:              #ffffff !default;
+$white-smoke:        #f2f2f2 !default;
+$black:              #000000 !default;
+$gray:               #b8b8b8 !default;
+$safety-orange:      #F96D00 !default;
+$oxford-blue:        #263135 !default;
+$hint-of-red:        #f1efed !default;
+$nobel:              #999999 !default;
+$tenne:              #c65700 !default;
+$very-light-grey:    #cccccc !default;
+$light-grey:         #d4d4d4 !default;
+$gondola:            #3c312e !default;
+
+
+// Main color palette
+
+$color-primary:             $safety-orange;
+$color-secondary:           $gondola;
+$color-accent:              $light-grey;
+$color-shadow:              rgba($black, .125);
+$color-note:                #666;
+
+
+// Links
+
+$color-link:                $color-primary;
+$color-link-hover:          $gondola;
+$color-link-visited:        $gray;
