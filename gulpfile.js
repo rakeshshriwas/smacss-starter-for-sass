@@ -88,5 +88,5 @@ gulp.task('build', function(){
 
 // create default task
 gulp.task('default', function(){
-    runSequence(['sass','browserSync', 'watch']);
+    runSequence(['compile','browserSync', 'watch']);
 });
