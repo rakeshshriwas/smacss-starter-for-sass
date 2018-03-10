@@ -10,17 +10,10 @@ Styles are broken down into the following groups: **Base, Layout, Modules, State
 - LibSass
 - Gulp
 
-## Includes
-- Includes:
-  - [`Normalize.css`](https://necolas.github.com/normalize.css/)
-    for CSS normalizations and common bug fixes
-  - [`CSS Pesticide`](https://pesticide.io)
-    for easy CSS debugging
-  - [`jQuery`](https://jquery.com/) via CDN, with a local fallback
-  - [`Modernizr`](http://modernizr.com/), via CDN, for feature
-    detection
-  - [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
-    that, among other, improve the web site's performance and security
+## Installation Process
+- npm init (in your project folder)
+- npm install gulp --save-dev (install gulp in your folder globally)
+
 
 ## Dependencies
 ```
